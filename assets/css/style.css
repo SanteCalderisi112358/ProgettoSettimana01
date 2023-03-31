@@ -22,7 +22,7 @@ body {
 /*Header*/
 #logo {
 
-    
+    margin-right: 200%;
     width: 35%;
     
 }
@@ -103,8 +103,8 @@ button {
     }
 
     figure {
+        margin: 0;
         margin-bottom: 10%;
-        padding: 20px 10px;
         font-family: 'Open Sans', sans-serif;
         background-color: #f04c2f ;
         text-align: center;
@@ -156,6 +156,8 @@ button {
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         background-color: #25a2c3;
+        height: 400px;
+        padding-top: 25px;
     }
     
 
@@ -170,5 +172,6 @@ button {
         color: white;
     }
 
+    
      
     
