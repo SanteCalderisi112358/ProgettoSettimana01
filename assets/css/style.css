@@ -105,15 +105,25 @@ button {
     figure {
         margin: 0;
         margin-bottom: 10%;
+        padding-top: 50px;
+        height: 230px;
         font-family: 'Open Sans', sans-serif;
-        background-color: #f04c2f ;
+        background-color: #e22d0e ;
         text-align: center;
         color: white;
     }
 
-    blockquote h2 {
+    figcaption p {
 
+        margin-bottom: 0;
+    }
+
+    blockquote h2 {
+        
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
+        font-size: 200%;
+        
     }
 
     blockquote p {
@@ -123,6 +133,7 @@ button {
 
     #ceo {
 
+        margin: 0;
         font-size: 60%;
     }
 
@@ -132,7 +143,7 @@ button {
     }
 
     .sezioni_finali p {
-        margin-top: 0;
+        
         font-family: 'Open Sans', sans-serif;
         text-align: center;
         border-bottom: 1px solid #dee1e3;
@@ -143,8 +154,8 @@ button {
     }
 
     .sezioni_finali h2 {
-        margin: 0;
-        font-size: 80%;
+        
+        font-size: 90%;
         border-left: 1px solid #dee1e3;
         border-right: 1px solid #dee1e3;
     }
@@ -170,6 +181,11 @@ button {
     footer h2,footer p, footer a:link{
 
         color: white;
+    }
+
+    footer h2 {
+
+        font-size: 200%;
     }
 
     
