@@ -1,1 +1,48 @@
 /* Your styles here */
+
+/* Font da utilizzare*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+font-family: 'Montserrat', sans-serif;
+
+/*Body*/
+
+body {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        background-color: #393d41;
+        font-size: 1.2rem;
+        line-height: 1.65;
+        font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+
+header {
+
+    background-color: black;
+}
+
+header img {
+    width: 50%;
+    margin: 20px 120px;
+}
+
+/*Main*/
+main {
+
+    margin: 0;
+}
+    /*Section*/
+    section {
+        margin: 0;
+        background-image: url('../img/banner.jpg');
+        background-size: cover;
+    }
+
+    section h1 {
+
+        color: #25a2c3;
+    }
