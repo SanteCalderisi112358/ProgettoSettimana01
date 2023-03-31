@@ -8,19 +8,26 @@ font-family: 'Montserrat', sans-serif;
 
 /*Body*/
 
+
 body {
         margin: 0 auto;
         padding: 0;
-        text-align: center;
+        font-family: 'Open Sans', sans-serif
         background-color: #393d41;
         font-size: 1.2rem;
         line-height: 1.65;
-        font-family: 'Open Sans', sans-serif;
+        ;
+        text-align: center;
 }
 
 /*Header*/
+#logo {
 
+    width: 30%;
+    
+}
 header {
+
 
     background-color: black;
 }
@@ -35,14 +42,80 @@ main {
 
     margin: 0;
 }
-    /*Section*/
-    section {
-        margin: 0;
+button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: none;
+}
+.headings {
+        font-family: 'Montserrat', sans-serif;
+        color: #25a2c3;
+        line-height: 1.5;
+        text-align: center;
+    }
+    /*Div*/
+    div {
+        margin-bottom: 50px;
+        padding: 10%;
         background-image: url('../img/banner.jpg');
         background-size: cover;
+        text-align: center;
     }
 
-    section h1 {
+    div h1 {
 
-        color: #25a2c3;
+        font-size: 250%;
+    }
+
+    div p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 120%;
+    }
+
+    /*Section*/
+
+    .section {
+
+        margin-bottom: 30%;
+        text-align: center;
+    }
+
+    .section p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 145%;
+    }
+
+    aside {
+
+        background-image: url('../img/foto1.jpg');
+        
+    }
+
+    figure {
+        margin: 0;
+        padding: 20px 10px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f04c2f ;
+        text-align: center;
+        color: white;
+    }
+
+    blockquote h2 {
+
+        font-weight: bold;
+    }
+
+    blockquote p {
+
+        font-style: italic;
+    }
+
+    blockquote p ~ p {
+
+        font-size: 200%;
     }
